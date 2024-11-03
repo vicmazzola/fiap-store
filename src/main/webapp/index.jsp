@@ -6,7 +6,8 @@
     <title>FiapStore</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/bootstrap.css">
-    <link rel="stylesheet" href="./resources/css/styles.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/styles.css">
+
 </head>
 <body>
 <%@include file="header.jsp"%>

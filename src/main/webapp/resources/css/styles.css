@@ -6,3 +6,11 @@ body, html {
 .content {
     flex: 1;
 }
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ccc !important;
+}

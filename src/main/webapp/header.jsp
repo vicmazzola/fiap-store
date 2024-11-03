@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="${pageContext.request.contextPath}/resources/images/fiap-logo-32x32.png" alt="FIAP Logo"
-                 width="32" height="32"/>
+        <a class="navbar-brand text-white" href="#">
+            <img src="${pageContext.request.contextPath}/resources/images/fiap-logo-dark-small.jpeg"
+                 alt="FIAP Logo"/>
 
             FIAP Store
         </a>
