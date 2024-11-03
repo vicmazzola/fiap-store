@@ -6,6 +6,7 @@
     <title>FiapStore</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/bootstrap.css">
+    <link rel="stylesheet" href="./resources/css/styles.css">
 </head>
 <body>
 <%@include file="header.jsp"%>
@@ -54,6 +55,7 @@
         </div>
     </div>
 </div>
+
 <%@include file="footer.jsp"%>
 <script src="resources/js/bootstrap.bundle.js"></script>
 </body>
