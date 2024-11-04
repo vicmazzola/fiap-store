@@ -6,7 +6,7 @@ public class Product {
 
     private int code;
     private String name;
-    private double price;
+    private double value;
     private int quantity;
     private LocalDate manufacturingDate;
 
@@ -16,7 +16,7 @@ public class Product {
                    int quantity, LocalDate manufacturingDate) {
         this.code = code;
         this.name = name;
-        this.price = price;
+        this.value = price;
         this.quantity = quantity;
         this.manufacturingDate = manufacturingDate;
     }
@@ -37,12 +37,12 @@ public class Product {
         this.name = name;
     }
 
-    public double getPrice() {
-        return price;
+    public double getValue() {
+        return value;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    public void setValue(double price) {
+        this.value = price;
     }
 
     public LocalDate getManufacturingDate() {
