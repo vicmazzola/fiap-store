@@ -10,7 +10,7 @@ public class ProductDao {
 
     void register(Product product) throws DBException;
     void update(Product product) throws DBException;
-    void remove(Product product);
+    void remove(int code) throws DBException;
     Product search(int id);
     List<Product> list();
 
