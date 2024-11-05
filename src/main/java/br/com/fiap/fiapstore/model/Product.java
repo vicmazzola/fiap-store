@@ -12,11 +12,11 @@ public class Product {
 
     public Product() {}
 
-    public Product(int code, String name, double price,
+    public Product(int code, String name, double value,
                    int quantity, LocalDate manufacturingDate) {
         this.code = code;
         this.name = name;
-        this.value = price;
+        this.value = value;
         this.quantity = quantity;
         this.manufacturingDate = manufacturingDate;
     }
@@ -41,8 +41,8 @@ public class Product {
         return value;
     }
 
-    public void setValue(double price) {
-        this.value = price;
+    public void setValue(double value) {
+        this.value = value;
     }
 
     public LocalDate getManufacturingDate() {

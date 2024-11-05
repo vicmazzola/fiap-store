@@ -6,7 +6,7 @@ import br.com.fiap.fiapstore.model.Product;
 import java.util.List;
 
 
-public class ProductDao {
+public interface ProductDao {
 
     void register(Product product) throws DBException;
     void update(Product product) throws DBException;
