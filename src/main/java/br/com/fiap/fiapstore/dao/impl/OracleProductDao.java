@@ -32,8 +32,10 @@ public class OracleProductDao implements ProductDao {
             stmt.setString(1, product.getName());
             stmt.setInt(2, product.getQuantity());
             stmt.setDouble(3, product.getValue());
-            stmt.setDate(4, Date.valueOf(product.getManufactureDate()));
+            stmt.setDate(4, Date.valueOf(product.getManufacturingDate()));
             stmt.executeUpdate();
+
+            System.out.println("Product registered successfully");
 
         } catch (SQLException e) {
             throw new DBException("Error registering product.");
@@ -74,6 +76,9 @@ public class OracleProductDao implements ProductDao {
 
             stmt.executeUpdate();
 
+            System.out.println("Product updated.");
+
+
         } catch (SQLException e) {
             e.printStackTrace();
             throw new DBException("Error updating record.");
@@ -100,6 +105,8 @@ public class OracleProductDao implements ProductDao {
             stmt = connection.prepareStatement(sql);
             stmt.setInt(1, code);
             stmt.executeUpdate();
+            System.out.println("Product removed.");
+
         } catch (SQLException e) {
             e.printStackTrace();
             throw new DBException("Error removing record.");
