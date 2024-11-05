@@ -17,14 +17,14 @@
                 PRODUCT REGISTRATION
             </div>
             <div class="card-body">
-                <form action="product" method="post">
+                <form action="products" method="post">
                     <div class="form-group">
                         <label for="id-name">Name</label>
                         <input type="text" name="name" id="id-name" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="id-price">Price</label>
-                        <input type="text" name="price" id="id-price" class="form-control">
+                        <label for="id-value">Price</label>
+                        <input type="text" name="value" id="id-value" class="form-control">
                     </div>
                     <div class="form-group">
                         <label for="id-quantity">Quantity</label>
